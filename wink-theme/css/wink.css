@@ -1,0 +1,108 @@
+a.home{
+    color:darkcyan;
+}
+a.signature{
+    color:darkgray;
+}
+.tbl{
+    background-color:white;
+}
+.article-title a{
+    color: #444444;
+}
+.article-date{
+    margin-top:-10px;
+    padding-bottom:20px;
+    color:gray;
+    font-size:.9em;
+    font-family: 'Tinos', serif;
+}
+.header{
+    padding:20px;
+}
+.headerimg{
+    background-image: url(../images/kithira.JPG);height:400px;background-size: cover;background-position: center;background-repeat: no-repeat;
+    border:0px;
+}
+#article{
+    margin-top:40px;
+}
+#article hr{
+    height:30px;
+    border:0px;
+    background-image:url(../images/dots.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.divider{
+    height:80px;
+    background-image:url(../images/divider.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.readmore a {
+    color:darkorange;
+    padding:8px;
+    font-size:.7em;
+    border-left:1px dashed lightgray;
+    border-bottom:1px dashed lightgray;
+    text-align:center;
+}
+.whiteme, .homelink{
+    background-color:white;
+    font-size:.9em;
+    font-weight: normal;
+}
+h2{
+    font-family: 'Tinos', serif;
+}
+
+body{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size:1.2em;
+    color: #575757;
+}
+ul.tags{
+    list-style-type: none;
+}
+ul.tags li {
+    background-color:darkorange;
+    color:white;
+    font-size:.7em;
+    padding:10px;
+    border-radius:4px;
+    display:inline-block;
+    margin-right:8px;
+}
+a.taglink{
+    color: white;
+}
+.embedded_image{
+    text-align:center;
+}
+pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+.article-body{
+    margin-bottom:60px;
+}
+
+p img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
