@@ -5,7 +5,6 @@ Kythera is a theme for [Wink](https://github.com/writingink/wink) build with [Fo
 ## How can this help?
 This theme has build in a number of things:
 - An index page with the articles.
-- It detects the first 'hr' tag and keeps this chunk as the teaser text for index.
 - Included an article view page with for the main article
 - Google analytics tracking easily configurable.
 - Disqus support, easily configurable.
@@ -30,7 +29,8 @@ You need to have a laravel project, and Wink package already installed. Wink is 
     ```
 
 2. Make a copy of the folder "wink-theme" in your /public directory.
-3. Copy/paste those routes in your routes/web.php
+3. Make a copy of the folder views/blog to your project at the same path. 
+4. Copy/paste those routes in your routes/web.php
     ```php
          Route::get('/blog', function (\Illuminate\Http\Request $request) {
              $tag = $request->tag;
